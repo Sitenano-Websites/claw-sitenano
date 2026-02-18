@@ -108,12 +108,12 @@ export default function Home() {
             <span className="gradient-text">Agent</span>Hub
           </div>
           <nav style={{ display: 'flex', gap: '32px', alignItems: 'center' }}>
-            <a href="#home" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }}>Home</a>
-            <a href="#agents" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }}>Agents</a>
-            <a href="#features" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }}>Features</a>
-            <a href="#about" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }}>About</a>
+            <a href="#home" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }}>Ana Sayfa</a>
+            <a href="#agents" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }}>Ajanlar</a>
+            <a href="#features" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }}>Özellikler</a>
+            <a href="#about" style={{ color: 'var(--text-secondary)', transition: 'color 0.3s' }}>Hakkında</a>
             <button className="btn-primary" style={{ padding: '10px 20px', fontSize: '14px' }}>
-              Add Your Agent
+              Ajanını Ekle
             </button>
           </nav>
         </div>
@@ -172,7 +172,7 @@ export default function Home() {
             marginBottom: '24px',
             fontWeight: 600
           }}>
-            Explore AI Agents
+            Yapay Zeka Ajanlarını Keşfet
           </div>
           <h1 style={{
             fontSize: 'clamp(40px, 8vw, 72px)',
@@ -181,7 +181,7 @@ export default function Home() {
             marginBottom: '24px',
             fontFamily: 'Outfit'
           }}>
-            {typedText}
+            {typedText.replace('Discover the Future of AI Agents', 'Yapay Zeka Ajanlarının Geleceğini Keşfet')}
             <span style={{ animation: 'pulse 1s ease-in-out infinite' }}>|</span>
           </h1>
           <p style={{
@@ -191,8 +191,8 @@ export default function Home() {
             margin: '0 auto 48px',
             lineHeight: 1.7
           }}>
-            A curated collection of powerful AI agents ready to enhance your workflow. 
-            From coding assistants to creative tools, find the perfect agent for your needs.
+            İş akışınızı geliştirmek için hazır güçlü yapay zeka ajanları koleksiyonu.
+            Kodlama asistanlarından yaratıcı araçlara kadar, ihtiyaçlarınıza uygun ajanı bulun.
           </p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href="#agents" className="btn-primary">Explore Agents</a>
@@ -208,15 +208,15 @@ export default function Home() {
           }}>
             <div>
               <div style={{ fontSize: '48px', fontWeight: 800, fontFamily: 'Outfit', color: 'var(--accent-primary)' }}>500+</div>
-              <div style={{ color: 'var(--text-secondary)' }}>AI Agents</div>
+              <div style={{ color: 'var(--text-secondary)' }}>Yapay Zeka Ajanları</div>
             </div>
             <div>
               <div style={{ fontSize: '48px', fontWeight: 800, fontFamily: 'Outfit', color: 'var(--accent-secondary)' }}>50k+</div>
-              <div style={{ color: 'var(--text-secondary)' }}>Active Users</div>
+              <div style={{ color: 'var(--text-secondary)' }}>Aktif Kullanıcılar</div>
             </div>
             <div>
               <div style={{ fontSize: '48px', fontWeight: 800, fontFamily: 'Outfit', color: 'var(--accent-tertiary)' }}>1M+</div>
-              <div style={{ color: 'var(--text-secondary)' }}>Tasks Completed</div>
+              <div style={{ color: 'var(--text-secondary)' }}>Tamamlanan Görevler</div>
             </div>
           </div>
         </div>
@@ -227,10 +227,10 @@ export default function Home() {
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '64px' }}>
             <h2 style={{ fontSize: '48px', fontWeight: 700, marginBottom: '16px', fontFamily: 'Outfit' }}>
-              Featured <span className="gradient-text">AI Agents</span>
+              Öne Çıkan <span className="gradient-text">Yapay Zeka Ajanları</span>
             </h2>
             <p style={{ color: 'var(--text-secondary)', fontSize: '18px', maxWidth: '600px', margin: '0 auto' }}>
-              Explore our handpicked selection of the most powerful and innovative AI agents
+              En güçlü ve yenilikçi yapay zeka ajanlarından oluşan seçkimiz.
             </p>
           </div>
 
